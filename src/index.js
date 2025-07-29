@@ -11,13 +11,14 @@ const messages = [
   'Reinventing the wheel. Again.',
   'This is not the commit message you are looking for',
   'Batman! (this commit has no parents)',
+  'Here be Dragons',
 ];
 
 const funnyCommit = () => {
   // Genera un número aleatorio entre 0 y 1, lo multiplica por la longitud del array
   // y usa Math.floor para obtener un índice entero válido
   const message = messages[Math.floor(Math.random() * messages.length)];
-  
+
   // Imprime el mensaje usando códigos ANSI para colores:
   // \x1b[34m - establece el color de texto a azul
   // \x1b[89m - restablece el color al valor por defecto
