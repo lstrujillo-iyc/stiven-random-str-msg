@@ -1,0 +1,25 @@
+{
+  "name": "stiven-random-str-msg",
+  "version": "1.0.0",
+  "description": "Random String Messages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lstrujillo-iyc/stiven-random-str-msg.git"
+  },
+  "keywords": [],
+  "author": "Stiven Trujillo <lstrujillo@incolmotos-yamaha.com.co>",
+  "license": "MIT",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/lstrujillo-iyc/stiven-random-str-msg/issues"
+  },
+  "homepage": "https://github.com/lstrujillo-iyc/stiven-random-str-msg#readme",
+  "bin": {
+    "stiven-random-str-msg": "./bin/global.js"
+  },
+  "preferGlobal": true
+}
